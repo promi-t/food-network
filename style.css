@@ -1,0 +1,80 @@
+body{
+margin: 0;
+}
+h1{font-size: 45px;}
+h2{font-size: 35px;}
+h3{font-size: 25px;}
+.header-banner{
+width: 100%;
+height: 500px;
+background:url('images/header-banner.png') no-repeat;
+background-size: 100%;
+}
+#header-tagline{
+    color: orange;
+    font-weight: 900px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width:  48%;
+    margin: 70px;
+}
+.button{
+    margin-TOP: 20px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(224, 240, 6),orange);
+    border-radius:10px;
+    padding:10px;
+    text-decoration:none;
+    font-weight: 900;
+    color: green;
+}
+#middle-tagline{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(23, 21, 26);
+}
+.middle-section{
+
+    background:url(images/middle-bg.png) no-repeat;
+    background-size: 100%;
+}
+.recipies-title{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.first-recipies-img{
+    width: 300px;
+    height: auto;
+    background-image:;
+}
+.recipies img{
+    width: 251px;
+    height: 250px;
+    border-radius: 30px 30px 0 0;
+}
+.recipies{
+    width: 250px;
+    margin: 50px 130px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow:10px 10px 5px 5px black;
+}
+.media{
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    border-radius: 4%;
+    background-color: rgb(196, 196, 209);
+}
+.media-bar{
+    margin: 40px 100px;
+}
+footer{
+    text-align: center;
+    background:linear-gradient(red,rgb(61, 172, 27));
+}
